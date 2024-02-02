@@ -1,37 +1,14 @@
-# Foobar
+# Работа с file/os
 
-Foobar is a Python library for dealing with word pluralization.
+У вас есть папка с отчетами за октябрь. Он зашифрован, задача
+дешифровать, проверить содержимое, обратно зашифровать с 
+помощью другого ключа и сохранить в новой папке, с тем же
+названием.
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
+## Доп. библиотеки
 ```bash
-pip install foobar
+pip install cryptography
+pip install dotenv
 ```
 
-## Usage
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
