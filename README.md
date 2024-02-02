@@ -8,7 +8,7 @@
 ## Доп. библиотеки
 ```bash
 pip install cryptography
-pip install dotenv
+pip install python-dotenv
 ```
 
 
