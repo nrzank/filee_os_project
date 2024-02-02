@@ -20,6 +20,6 @@ def process_files_in_folder(folder_path):
                 file.write('\nПроверено!')
 
 
-folder_path = r'C:\Users\kymar\PycharmProjects\file_os_project1\topic1\decrypted_reports'
+folder_path = r'/topic1/decrypted_reports'
 
 process_files_in_folder(folder_path)
