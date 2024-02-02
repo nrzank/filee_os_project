@@ -31,7 +31,7 @@ def encrypt_files_without_c(folder_path, encrypted_folder_path, fernet):
             encrypt_file(file_path, encrypted_folder_path, fernet)
 
 
-key_file_path = 'encryption_key.key'
+key_file_path = 'encryption.key'
 with open(key_file_path, 'wb') as key_file:
     key_file.write(key)
 
