@@ -10,5 +10,7 @@
 pip install cryptography
 pip install python-dotenv
 ```
+## Благодарности
 
+- Сделано в рамках курса от Justcode
 
